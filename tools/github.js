@@ -2,6 +2,8 @@
 const fs = require('fs');
 
 const file = './tools/index.html';
+
+// Replace by your repo URL
 const repoBaseUrl = 'https://github.com/Evyweb/star-wars-app/blob/master/';
 
 let svgContent = fs.readFileSync(file, 'utf8');
